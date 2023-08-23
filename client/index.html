@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/19670e0ec6.js" crossorigin="anonymous"></script>
+    <title>SPOTIFY CLONE</title>
+    <a href="./form.html">SIGNUP</a>
+    
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">SPOTIFY</a>
+        <nav class="navbar">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-download"></i></a>
+        </nav>
+    </header>
+   
+            <!-- <img style="height:79px;width:52px; align-items: flex-start;" src="https://w0.peakpx.com/wallpaper/780/177/HD-wallpaper-spotify-logo-green-music-thumbnail.jpg" > -->
+        <!-- <nav class="navbar">
+             <ul>
+                <li class="brand"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxfzfN7jCtCetsM9tT_SHO_aJ950Y8u-bmQ&usqp=CAU" alt="Spotify"></li>
+                <li>Home</li>
+                <li>About</li>
+             </ul> -->
+        
+   <form>
+    <!-- <input id="search" type="text" > 
+    <i id="searchQuery" class="fa-solid fa-magnifying-glass"></i> -->
+
+        <input id="searchQuery"  placeholder="what you wanna listen..." type="text" />
+        <i id="searchButton" style="font-size: 1.5em; color:black;" class="fa-solid fa-magnifying-glass" ></i>
+        
+    
+   </form>
+   <div id="results" style="display: flex; justify-content: center; flex-wrap: wrap; " class="container"></div><br>
+   <img src=".//assets/music-mind-music-abstract-art-created-with-generative-ai-technology_545448-15311.avif" alt="">
+   <script src="./main.js"></script>
+
+</body>
+</html>
+
+<!-- <div style="margin: 20px 20px 20px 20px; background-color: black;" class="container-fluid" >
+    <div style="display: flex; justify-content: space-between; " >
+        <img  id="logo" style="width:10%" src="data:image/png;base64,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" >
+        <form >
+            <input id="search-text" style="height: 2.2em; border-radius: 10px;" placeholder="search..." type="text" />
+            <i id="search-btn" style="font-size: 2em; color:azure;" class="fa-solid fa-magnifying-glass"></i>
+            
+        </form>
+    </div>
+</div> -->

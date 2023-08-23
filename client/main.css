@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    position: relative ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.navbar a{
+font-size: 18px;
+color: #fff;
+text-decoration: none;
+font-weight: 500px;
+margin-left: 35px;
+}
+
+body{
+    
+   background: lightgreen;
+}
+/* #search-text{
+    align-items: center;
+    margin-left: 48%;
+} */
+form{
+    text-align: center;
+    padding-top: 10%;
+}
+img{
+    height: auto;
+    width: 100%;
+    
+    
+}
+#searchButton{
+    color: black;
+}
+#searchQuery{
+    height: 3.2em;
+    border-radius: 10px;
+}
+div{
+    column-gap: 3em;
+    margin-top: 2%;
+    row-gap: 3em;
+}
+head a{
+    right: 50%;    
+}
